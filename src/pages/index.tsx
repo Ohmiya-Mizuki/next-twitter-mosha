@@ -1,8 +1,9 @@
+import { HomeTemplate } from "src/components/templates/home"
 
-export default function Home() {
+const HomePage = () => {
   return (
-    <div>
-      <h1>Hello World!</h1>
-   </div>
+    <HomeTemplate />
   )
 }
+
+export default HomePage
